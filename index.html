@@ -12,13 +12,49 @@
 <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 
 <style>
+	
+	#about-jumbotron {
+		background-color: #4CE600;
+		margin-top: 60px;
+	}
+
+	#portfolio-jumbotron {
+		background-color: #66CCFF;
+	}
+
+	#contact-jumbotron {
+		background-color: #CC33FF;
+	}
 
 </style>
 </head>
 
 <body>
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#">Personal Portfolio Website</a>
+			</div>
+			<ul class="nav navbar-nav navbar-right">
+				<li class="active"><a href="#about-jumbotron">About</a></li>
+				<li><a href="#portfolio-jumbotron">Portfolio</a></li>
+				<li><a href="#contact-jumbotron">Contact</a></li>
+			</ul>
+		</div>
+	</nav>
 
+	<div class="container-fluid">
+		<div class="jumbotron" id="about-jumbotron">
+			<h2>About</h2>
+		</div>
+		<div class="jumbotron" id="portfolio-jumbotron">
+			<h2>Portfolio</h2>
+		</div>
+		<div class="jumbotron" id="contact-jumbotron">
+			<h2>Contact</h2>
+		</div>
 
+	</div>
 
 </body>
 </html>
