@@ -12,7 +12,16 @@
 <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 
 <style>
-	
+	body {
+		position: relative;
+		font-family: Lato, serif;
+		text-align: center;
+	}
+
+	h2 {
+		margin-bottom: 10px;
+	}
+
 	#about-jumbotron {
 		background-color: #4CE600;
 		margin-top: 60px;
@@ -29,7 +38,7 @@
 </style>
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar">
 	<nav class="navbar navbar-default navbar-fixed-top">
 		<div class="container-fluid">
 			<div class="navbar-header">
@@ -46,6 +55,17 @@
 	<div class="container-fluid">
 		<div class="jumbotron" id="about-jumbotron">
 			<h2>About</h2>
+			<img class="img-responsive img-circle center-block" src="http://res.cloudinary.com/caffeinehighzombie/image/upload/v1467383587/RS%20Saranyaraj%2C%20Speaker%20at%20TEDx.jpg" alt="RS Saranyaraj, Speaker at TEDx">
+			<br>
+			<p>
+			Hi there,
+			<br>
+			I'm RS Saranyaraj, a caffeine junkie and a lifelong learner.
+			<br>
+			I'm currently working through FreeCodeCamp's Front End Development coursework. 
+			<br>
+			As soon as I'm done with that, I plan to complete the remaining portions of the Full Stack Development coursework and hopefully add more value to the society.
+			</p>
 		</div>
 		<div class="jumbotron" id="portfolio-jumbotron">
 			<h2>Portfolio</h2>
